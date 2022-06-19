@@ -1,6 +1,11 @@
 Trapcraft [![Curseforge](http://cf.way2muchnoise.eu/full_trapcraft_downloads.svg)](https://minecraft.curseforge.com/projects/trapcraft) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_trapcraft_all.svg)](https://minecraft.curseforge.com/projects/trapcraft)
 ===========
 
+-- This is an edit of an already existing mod, to add in new features for my own personal use.
+(See details)
+ - Added:
+   - Iron Fan, Iron Vacuum, as well as various other changes, new models, and textures for existing items.
+
 **Trapcraft** is a **Minecraft mod** made for **Minecraft Forge**
 
 What's included?
