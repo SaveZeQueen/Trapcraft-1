@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XWX",
+    "WYW",
+    "XWX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Y": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "trapcraft:copper_vaccum"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XWX",
+    "WYW",
+    "XWX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "minecraft:gold_ingot"
+    },
+    "W": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "trapcraft:iron_fan"
+  }
+}

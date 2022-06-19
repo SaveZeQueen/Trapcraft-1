@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=down,powered=false": {
+      "model": "trapcraft:block/iron_fan_vert",
+      "x": 180
+    },
+    "facing=up,powered=false": {
+      "model": "trapcraft:block/iron_fan_vert"
+    },
+    "facing=north,powered=false": {
+      "model": "trapcraft:block/iron_fan"
+    },
+    "facing=south,powered=false": {
+      "model": "trapcraft:block/iron_fan",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "trapcraft:block/iron_fan",
+      "y": 270
+    },
+    "facing=east,powered=false": {
+      "model": "trapcraft:block/iron_fan",
+      "y": 90
+    },
+    "facing=down,powered=true": {
+      "model": "trapcraft:block/iron_fan_vert_powered",
+      "x": 180
+    },
+    "facing=up,powered=true": {
+      "model": "trapcraft:block/iron_fan_vert_powered"
+    },
+    "facing=north,powered=true": {
+      "model": "trapcraft:block/iron_fan_powered"
+    },
+    "facing=south,powered=true": {
+      "model": "trapcraft:block/iron_fan_powered",
+      "y": 180
+    },
+    "facing=west,powered=true": {
+      "model": "trapcraft:block/iron_fan_powered",
+      "y": 270
+    },
+    "facing=east,powered=true": {
+      "model": "trapcraft:block/iron_fan_powered",
+      "y": 90
+    }
+  }
+}

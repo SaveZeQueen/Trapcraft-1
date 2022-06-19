@@ -1,0 +1,143 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2/10/22, 8:35 PM
+Description: Ticking block entity
+
+java.lang.ClassCastException: class net.minecraft.core.particles.ParticleTypes$1 cannot be cast to class net.minecraft.core.particles.ParticleOptions (net.minecraft.core.particles.ParticleTypes$1 and net.minecraft.core.particles.ParticleOptions are in module minecraft@1.18.1 of loader 'TRANSFORMER' @71945bc0)
+	at trapcraft.block.tileentity.IronFanTileEntity.spawnParticles(IronFanTileEntity.java:148) ~[%2381!:?] {re:classloading}
+	at trapcraft.block.tileentity.IronFanTileEntity.tick(IronFanTileEntity.java:47) ~[%2381!:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:673) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:768) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading}
+	at net.minecraft.world.level.Level.tickBlockEntities(Level.java:476) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:324) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:868) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:808) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:86) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:668) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:258) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at trapcraft.block.tileentity.IronFanTileEntity.spawnParticles(IronFanTileEntity.java:148) ~[%2381!:?] {re:classloading}
+	at trapcraft.block.tileentity.IronFanTileEntity.tick(IronFanTileEntity.java:47) ~[%2381!:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:673) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:768) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading}
+	at net.minecraft.world.level.Level.tickBlockEntities(Level.java:476) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:324) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+-- Block entity being ticked --
+Details:
+	Name: trapcraft:iron_fan // trapcraft.block.tileentity.IronFanTileEntity
+	Block: Block{trapcraft:iron_fan}[facing=west,powered=true]
+	Block location: World: (-13,-8,-12), Section: (at 3,8,4 in -1,-1,-1; chunk contains blocks -16,-64,-16 to -1,319,-1), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Block: Block{trapcraft:iron_fan}[facing=west,powered=true]
+	Block location: World: (-13,-8,-12), Section: (at 3,8,4 in -1,-1,-1; chunk contains blocks -16,-64,-16 to -1,319,-1), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+Stacktrace:
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:673) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:768) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading}
+	at net.minecraft.world.level.Level.tickBlockEntities(Level.java:476) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:324) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:868) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:808) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:86) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:668) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:258) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/73, l='ServerLevel[TrapCraft TestWorld]', x=-11.29, y=-8.00, z=1.29]]
+	Chunk stats: 2809
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-8,0), Section: (at 0,8,0 in 0,-1,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 130072 game time, 1181 day time
+	Level name: TrapCraft TestWorld
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 16070 (now: true), thunder time: 100003 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:868) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:808) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:86) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:668) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:258) ~[forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.1
+	Minecraft Version ID: 1.18.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 1630412728 bytes (1554 MiB) / 3204448256 bytes (3056 MiB) up to 8568963072 bytes (8172 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 158 Stepping 12
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA GeForce RTX 2070
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f02
+	Graphics card #0 versionInfo: DriverVersion=30.0.14.9729
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.00
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.00
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 3.00
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 3.00
+	Memory slot #3 type: DDR4
+	Virtual memory max (MB): 42974.14
+	Virtual memory used (MB): 35841.07
+	Swap memory total (MB): 10289.54
+	Swap memory used (MB): 320.66
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/73, l='ServerLevel[TrapCraft TestWorld]', x=-11.29, y=-8.00, z=1.29]]
+	Data Packs: vanilla, mod:forge, mod:trapcraft, mod:jei (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	ModLauncher: 9.0.24+9.0.24+main.7be9f01d
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+	Mod List: 
+		forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.|Minecraft                     |minecraft                     |1.18.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |39.0.9              |DONE      |Manifest: NOSIGNATURE
+		main                                              |Trapcraft                     |trapcraft                     |3.6.4               |DONE      |Manifest: NOSIGNATURE
+		jei-1.18.1-9.1.1.48_mapped_official_1.18.1.jar    |Just Enough Items             |jei                           |9.1.1.48            |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 66ab49df-0942-4757-a834-a83c06689d0c
+	FML: 39.0
+	Forge: net.minecraftforge:39.0.9

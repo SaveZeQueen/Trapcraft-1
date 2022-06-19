@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "side": "trapcraft:block/igniter_side",
+    "front": "trapcraft:block/igniter_side",
+    "bottom": "trapcraft:block/igniter_bottom",
+    "top": "trapcraft:block/igniter_top"
+  }
+}

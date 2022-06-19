@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "side": "trapcraft:block/copper_vaccum_side",
+    "front": "trapcraft:block/copper_vaccum_side",
+    "bottom": "trapcraft:block/copper_vaccum_bottom",
+    "top": "trapcraft:block/copper_vaccum_top"
+  }
+}

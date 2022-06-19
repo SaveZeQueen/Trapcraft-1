@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=down,powered=false": {
+      "model": "trapcraft:block/copper_vaccum_vert",
+      "x": 180
+    },
+    "facing=up,powered=false": {
+      "model": "trapcraft:block/copper_vaccum_vert"
+    },
+    "facing=north,powered=false": {
+      "model": "trapcraft:block/copper_vaccum"
+    },
+    "facing=south,powered=false": {
+      "model": "trapcraft:block/copper_vaccum",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "trapcraft:block/copper_vaccum",
+      "y": 270
+    },
+    "facing=east,powered=false": {
+      "model": "trapcraft:block/copper_vaccum",
+      "y": 90
+    },
+    "facing=down,powered=true": {
+      "model": "trapcraft:block/copper_vaccum_vert_powered",
+      "x": 180
+    },
+    "facing=up,powered=true": {
+      "model": "trapcraft:block/copper_vaccum_vert_powered"
+    },
+    "facing=north,powered=true": {
+      "model": "trapcraft:block/copper_vaccum_powered"
+    },
+    "facing=south,powered=true": {
+      "model": "trapcraft:block/copper_vaccum_powered",
+      "y": 180
+    },
+    "facing=west,powered=true": {
+      "model": "trapcraft:block/copper_vaccum_powered",
+      "y": 270
+    },
+    "facing=east,powered=true": {
+      "model": "trapcraft:block/copper_vaccum_powered",
+      "y": 90
+    }
+  }
+}

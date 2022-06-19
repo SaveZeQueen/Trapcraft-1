@@ -1,0 +1,137 @@
+[15Feb2022 21:15:27.398] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\Luke\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 39.0.9, --fml.mcVersion, 1.18.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20211210.034407]
+[15Feb2022 21:15:27.406] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.0.24+9.0.24+main.7be9f01d starting: java version 17.0.1 by Oracle Corporation
+[15Feb2022 21:15:27.524] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Luke/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2327! Service=ModLauncher Env=CLIENT
+[15Feb2022 21:15:29.953] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Luke\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[21:15:35] [Render thread/WARN]: Assets URL 'union:/C:/Users/Luke/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.0.9_mapped_official_1.18.1/forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!/assets/.mcassetsroot' uses unexpected schema
+[21:15:35] [Render thread/WARN]: Assets URL 'union:/C:/Users/Luke/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.1-39.0.9_mapped_official_1.18.1/forge-1.18.1-39.0.9_mapped_official_1.18.1-recomp.jar%2377!/data/.mcassetsroot' uses unexpected schema
+[15Feb2022 21:15:35.657] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:15:35] [Render thread/INFO]: Setting user: Dev
+[21:15:35] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[21:15:35] [Render thread/ERROR]: Null comment for config option server, this is invalid and may be disallowed in the future.
+[21:15:37] [modloading-worker-0/INFO]: Forge mod loading, version 39.0.9, for MC 1.18.1 with MCP 20211210.034407
+[21:15:37] [modloading-worker-0/INFO]: MinecraftForge v39.0.9 Initialized
+[15Feb2022 21:15:38.852] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[21:15:39] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[15Feb2022 21:15:40.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Feb2022 21:15:41.379] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 39.0.9 Target: 39.0.79
+[15Feb2022 21:15:41.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trapcraft] Starting version check at https://www.dropbox.com/s/raw/pzo9jfvjlq1obvh/version-trapcraft.json
+[15Feb2022 21:15:42.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trapcraft] Found status: BETA Current: 3.6.4 Target: 3.6.3
+[21:15:49] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[21:15:49] [Render thread/INFO]: Sound engine started
+[21:15:49] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[21:15:49] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[21:15:49] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:15:49] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:15:49] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:15:49] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:15:49] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:15:50] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:15:50] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:15:50] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:15:50] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[21:15:51] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[21:16:27] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:16:27] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:16:27] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:16:27] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:16:27] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:16:27] [Render thread/INFO]: Reloading ResourceManager: Default, , main, jei-1.18.1-9.1.1.48_mapped_official_1.18.1.jar
+[21:16:28] [Render thread/INFO]: Loaded 7 recipes
+[21:16:29] [Render thread/INFO]: Loaded 1141 advancements
+[21:16:29] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[21:16:30] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:16:30] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:16:30] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:16:30] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:16:30] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:16:30] [Render thread/INFO]: Reloading ResourceManager: Default, , main, jei-1.18.1-9.1.1.48_mapped_official_1.18.1.jar
+[21:16:31] [Render thread/INFO]: Loaded 7 recipes
+[21:16:32] [Render thread/INFO]: Loaded 1141 advancements
+[21:16:32] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[15Feb2022 21:16:33.447] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:16:33] [Server thread/INFO]: Starting integrated minecraft server version 1.18.1
+[21:16:33] [Server thread/INFO]: Generating keypair
+[21:16:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:16:34] [Render thread/INFO]: Preparing spawn area: 0%
+[21:16:34] [Render thread/INFO]: Preparing spawn area: 0%
+[21:16:34] [Render thread/INFO]: Preparing spawn area: 2%
+[21:16:35] [Render thread/INFO]: Preparing spawn area: 57%
+[21:16:35] [Server thread/INFO]: Successfully initialized permission handler forge:default_handler
+[21:16:35] [Render thread/INFO]: Time elapsed: 1732 ms
+[21:16:35] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:16:35] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[21:16:36] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[21:16:36] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5e1c590f
+[21:16:36] [Server thread/INFO]: Dev[local:E:4ef822d2] logged in with entity id 87 at (-22.555275118806293, -8.0, -42.926688070486215)
+[21:16:36] [Server thread/INFO]: Dev joined the game
+[21:16:37] [Render thread/INFO]: Starting JEI...
+[21:16:37] [Render thread/INFO]: Building ingredient list...
+[21:16:37] [Render thread/INFO]: Building ingredient list took 2.394 ms
+[21:16:37] [Render thread/INFO]: Building ingredient filter...
+[21:16:37] [Render thread/INFO]: Building ingredient filter took 137.8 ms
+[21:16:37] [Render thread/INFO]: Building bookmarks...
+[21:16:37] [Render thread/INFO]: Building bookmarks took 690.0 μs
+[21:16:37] [Render thread/INFO]: Building recipe registry...
+[21:16:37] [Render thread/INFO]: Building recipe registry took 11.12 ms
+[21:16:37] [Render thread/INFO]: Building runtime...
+[21:16:37] [Render thread/INFO]: Building runtime took 25.67 ms
+[21:16:37] [Render thread/INFO]: Starting JEI took 341.0 ms
+[21:16:37] [Render thread/INFO]: Loaded 159 advancements
+[21:22:37] [Render thread/INFO]: Loaded 164 advancements
+[21:38:40] [Render thread/INFO]: Loaded 164 advancements
+[21:43:09] [Render thread/INFO]: Loaded 165 advancements
+[21:44:40] [Server thread/INFO]: [Dev: Set own game mode to Adventure Mode]
+[21:44:40] [Render thread/INFO]: [CHAT] Set own game mode to Adventure Mode
+[21:45:21] [Server thread/INFO]: Dev was slain by Slime
+[21:45:21] [Render thread/INFO]: [CHAT] Dev was slain by Slime
+[21:45:28] [Server thread/INFO]: [Dev: Set own game mode to Creative Mode]
+[21:45:28] [Render thread/INFO]: [CHAT] Set own game mode to Creative Mode
+[21:45:59] [Render thread/INFO]: [CHAT] [Debug]: Reloaded resource packs
+[21:45:59] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[21:45:59] [Server thread/INFO]: Saving and pausing game...
+[21:45:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:overworld
+[21:45:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:the_nether
+[21:45:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:the_end
+[21:46:04] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[21:46:04] [Render thread/INFO]: Sound engine started
+[21:46:04] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:46:04] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[21:46:04] [Render thread/INFO]: Starting JEI...
+[21:46:04] [Render thread/INFO]: Building ingredient list...
+[21:46:04] [Render thread/INFO]: Building ingredient list took 364.2 μs
+[21:46:04] [Render thread/INFO]: Building ingredient filter...
+[21:46:04] [Render thread/INFO]: Building ingredient filter took 32.50 ms
+[21:46:04] [Render thread/INFO]: Building bookmarks...
+[21:46:04] [Render thread/INFO]: Building bookmarks took 100.3 μs
+[21:46:04] [Render thread/INFO]: Building recipe registry...
+[21:46:04] [Render thread/INFO]: Building recipe registry took 98.80 μs
+[21:46:04] [Render thread/INFO]: Building runtime...
+[21:46:04] [Render thread/INFO]: Building runtime took 228.1 μs
+[21:46:04] [Render thread/INFO]: Starting JEI took 76.75 ms
+[21:48:58] [Server thread/INFO]: Saving and pausing game...
+[21:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:overworld
+[21:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:the_nether
+[21:48:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:the_end
+[21:49:00] [Server thread/INFO]: Dev lost connection: Disconnected
+[21:49:00] [Server thread/INFO]: Dev left the game
+[21:49:00] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:49:00] [Server thread/INFO]: Stopping server
+[21:49:00] [Server thread/INFO]: Saving players
+[21:49:00] [Server thread/INFO]: Saving worlds
+[21:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:overworld
+[21:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:the_nether
+[21:49:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TrapCraft TestWorld]'/minecraft:the_end
+[21:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (TrapCraft TestWorld): All chunks are saved
+[21:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:49:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:49:02] [Render thread/INFO]: Stopping!
